@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Premium purchases and billing
+    url: https://play.google.com/store/account/subscriptions
+    about: Google Play handles billing, cancellations, and refunds. Manage subscriptions in your Google Account.
+  - name: Security or privacy concerns
+    url: https://github.com/bookorbit/bookorbit/security/advisories/new
+    about: Report a security concern privately rather than in a public issue.
+  - name: BookOrbit server issues
+    url: https://github.com/bookorbit/bookorbit/issues/new/choose
+    about: Problems with the BookOrbit server itself, rather than the Android app, belong in the server repository.
