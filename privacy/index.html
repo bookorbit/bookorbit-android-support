@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Privacy Policy for BookOrbit on Android.">
+    <title>Privacy Policy | BookOrbit Android</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <main>
+      <nav class="top"><a href="../">BookOrbit Android</a></nav>
+      <article>
+        <p class="eyebrow">Privacy Policy</p>
+        <h1>Your library stays yours.</h1>
+        <p class="updated">Effective October 15, 2026</p>
+
+        <p>BookOrbit is a client for a self-hosted reading server. The Android app keeps your library, reading activity, and account data under the control of you and your BookOrbit server administrator. BookOrbit does not sell personal information, show advertising, or track you across apps or websites.</p>
+
+        <section>
+          <h2>Data handled by the app</h2>
+          <p>The app handles the address of the BookOrbit server you connect to, the account information that server returns (such as your username, display name, email address, and avatar), and the sign-in tokens that keep you signed in. It also handles your library, reading progress, annotations, bookmarks, journal entries, activity, downloads, uploads, playback state, and preferences, so that its features work and work offline.</p>
+          <p>Sign-in tokens are encrypted on the phone with a key held in the Android Keystore, which never leaves it. Offline books, audiobooks, covers, widget data, and preferences are kept in the app's private storage. The app excludes all of its data from Android's cloud backup and device-to-device transfer, so a new phone signs in again and syncs from your server.</p>
+        </section>
+
+        <section>
+          <h2>Signing out and uninstalling</h2>
+          <p>Signing out of an account removes that account's downloads and offline library from the phone, along with its launcher shortcuts, widget data, and cached covers. A few settings tied to the account, such as recent searches and the Home layout, stay on the phone until the app is uninstalled. Uninstalling the app removes everything it stored on the phone. Neither deletes anything on your BookOrbit server.</p>
+        </section>
+
+        <section>
+          <h2>Self-hosted servers</h2>
+          <p>Your account and library data is exchanged with the BookOrbit server you choose, along with your phone's make and model, which names its signed-in session there. That server is operated by you or by an administrator you trust, not by the BookOrbit app developer, and its administrator controls its accounts, storage, backups, logs, connected services, and retention. Contact the server administrator to access, correct, export, or delete server data.</p>
+        </section>
+
+        <section>
+          <h2>Purchases</h2>
+          <p>Google Play processes payments for BookOrbit Premium. BookOrbit does not receive your payment details.</p>
+          <p>BookOrbit uses RevenueCat to retrieve products and determine whether Premium is active. RevenueCat receives an anonymous identifier the app creates and purchase information such as product identifiers, transaction status, and entitlement status. The app does not send your BookOrbit username, email address, server address, library, or reading activity to RevenueCat. See <a href="https://policies.google.com/privacy">Google's privacy policy</a> and <a href="https://www.revenuecat.com/privacy/">RevenueCat's privacy policy</a>.</p>
+        </section>
+
+        <section>
+          <h2>Crash reports</h2>
+          <p>The app uses Firebase Crashlytics, a Google service, to report crashes and moments when the app stops responding, so they can be fixed. A report contains the type of error and where in the app's code it happened, the app version, the device model, the Android version, and an identifier Firebase creates for this installation of the app. Before a report is sent, the app removes the error's message, which is where a server address, file name, or identifier could otherwise appear. Reports never include your account, server address, books, or reading.</p>
+          <p>Crash reports are on by default. Turn them off at any time in the app's Settings. See <a href="https://firebase.google.com/support/privacy">Firebase's privacy information</a>.</p>
+        </section>
+
+        <section>
+          <h2>Optional services</h2>
+          <p>Some features contact other services only when you use them:</p>
+          <ul>
+            <li><strong>Orbit Voices.</strong> Reading aloud with an Orbit voice sends the text being read and the chosen voice to Microsoft's speech service, which returns the audio. The list of Orbit voices comes from Microsoft too. No BookOrbit account, token, or server address is sent. See the <a href="https://privacy.microsoft.com/privacystatement">Microsoft Privacy Statement</a>.</li>
+            <li><strong>Server voices.</strong> Reading aloud with a server voice sends the text to your BookOrbit server, which may pass it to a speech provider its administrator set up.</li>
+            <li><strong>The phone's voices.</strong> Reading aloud with the phone's own voices uses Android's text-to-speech engine, which follows its own settings.</li>
+            <li><strong>Dictionary.</strong> Looking up a word sends only that word to the <a href="https://dictionaryapi.dev/">Free Dictionary API</a> and to <a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy">Wiktionary</a>, never the passage or the book.</li>
+            <li><strong>Server release notes.</strong> Opening the notice about a newer BookOrbit server asks GitHub for that release's notes.</li>
+            <li><strong>External sign-in.</strong> Signing in through an OpenID Connect provider opens that provider's page in your browser and follows your server administrator's settings.</li>
+            <li><strong>Links.</strong> Support pages, release notes, and a book's page on another site open in your browser.</li>
+          </ul>
+          <p>Each of these services may receive ordinary network information, such as your IP address, with the request.</p>
+        </section>
+
+        <section>
+          <h2>Permissions</h2>
+          <p>The camera is used only while the barcode scanner is open. Its images are read on the phone and never stored or sent; only the code it reads is used, to search your BookOrbit server. Notifications show download, upload, and playback progress. Local network access lets the app reach a server on your home network.</p>
+        </section>
+
+        <section>
+          <h2>Diagnostics</h2>
+          <p>Apart from crash reports, the app writes diagnostic notes only to the phone's own system log, in a fixed wording that leaves out server addresses, names, file names, and identifiers. Nothing in that log is uploaded by BookOrbit.</p>
+        </section>
+
+        <section>
+          <h2>Children</h2>
+          <p>BookOrbit is a general-purpose reading app and is not directed to children under 13. A BookOrbit server administrator decides who may have an account on their server.</p>
+        </section>
+
+        <section>
+          <h2>Changes</h2>
+          <p>This policy may be updated as BookOrbit changes. The effective date at the top of this page identifies the current version.</p>
+        </section>
+
+        <section>
+          <h2>Contact</h2>
+          <p>For questions about the Android app's privacy, open an issue in the <a href="https://github.com/bookorbit/bookorbit-android-support/issues/new/choose">BookOrbit Android support repository</a>, without secrets or private details. Report a security concern privately through <a href="https://github.com/bookorbit/bookorbit/security/advisories/new">GitHub Security Advisories</a>. For data held by a self-hosted server, contact its administrator.</p>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
